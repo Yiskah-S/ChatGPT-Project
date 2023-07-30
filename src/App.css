@@ -60,10 +60,18 @@ p {
     margin-top: 20px;
 }
 
-#create-account {
+#create-account.hidden {
     display: none;
 }
 
 #create-account.visible {
+    display: block;
+}
+
+#signin-form.hidden {
+    display: none;
+}
+
+#signin-form.visible {
     display: block;
 }

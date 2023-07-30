@@ -1,0 +1,14 @@
+{
+  "name": "ChatGPT-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Index.js",
+  "scripts": {
+    "start": "node src/Index.js"
+  },
+  "author": "Jessica <Yiskah.Scientia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": "https://github.com/Yiskah-S/ChatGPT-Project.git",
+  "private": false
+}
