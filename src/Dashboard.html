@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+        <a href="#">Home</a>
+        <a href="#">Prompt Library</a>
+        <a href="#">API Keys Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="crawl-section">
+        <h2>Crawl Website</h2>
+        <label for="target-website">Target Website:</label>
+        <input type="text" id="target-website" name="target-website" required>
+        
+        <label for="prompt-selection">Select Prompts:</label>
+        <select id="prompt-selection" name="prompt-selection" multiple required>
+            <!-- Populate this with prompts from the user's library -->
+        </select>
+
+        <label for="output-format">Output Format:</label>
+        <select id="output-format" name="output-format" required>
+            <option value="notion">Notion</option>
+            <option value="txt">.txt</option>
+            <option value="md">.md</option>
+            <option value="google-docs">Google Docs</option>
+        </select>
+
+        <button type="button" id="run-button">Run Crawler</button>
+        </section>
+
+        <section id="output-section">
+        <!-- Output results will be displayed here -->
+        </section>
+    </main>
+
+    <script src="Dashboard.js"></script>
+</body>
+</html>

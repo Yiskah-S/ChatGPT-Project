@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Input Page</title>
+  <link rel="stylesheet" href="PromptLibrary.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Prompt Input</h1>
+    <form id="prompt-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" required>
+
+      <label for="prompt">Prompt:</label>
+      <textarea id="prompt" name="prompt" rows="5" required></textarea>
+
+      <button type="submit">Save Prompt</button>
+    </form>
+  </div>
+
+  <script src="PromptLibrary.js"></script>
+</body>
+</html>
